@@ -18,5 +18,8 @@ lb config noauto \
 	--mode debian \
 	--debian-installer live \
 	--linux-packages "linux-image linux-headers" \
-	--source "${_SOURCE}" \
+	--source false \
+        --iso-application "PureOS-2.0 Linux" \
+        --iso-publisher "Purism" \
+        --iso-volume "Pure-OS-2.0 Live" \
 "${@}"
