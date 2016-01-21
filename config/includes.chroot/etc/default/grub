@@ -3,11 +3,11 @@
 # For full documentation of the options in this file, see:
 #   info -f grub -n 'Simple configuration'
 
-GRUB_DEFAULT=2
+GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
 GRUB_DISTRIBUTOR=`echo PureOS-2.0`
 GRUB_CMDLINE_LINUX_DEFAULT="quiet"
-GRUB_CMDLINE_LINUX="initrd=/install/initrd.gz"
+GRUB_CMDLINE_LINUX="initrd=/install/gtk/initrd.gz"
 GRUB_DISABLE_SUBMENU=y
 GRUB_BACKGROUND="/usr/share/images/arcturus.png"
 # Uncomment to enable BadRAM filtering, modify to suit your needs
